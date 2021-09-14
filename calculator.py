@@ -1,7 +1,7 @@
-# #Importing the necessary modules
-# from tkinter import *
-# import parser
-# from math import factorial
+#Importing the necessary modules
+from tkinter import *
+import parser
+from math import factorial
 
 
 # root = Tk()
