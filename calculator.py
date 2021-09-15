@@ -16,8 +16,8 @@ def get_variables(num):
     display.insert(i,num)
     i+=1
  
-# # Calculate function scans the string to evaluates and display it
-# def calculate():
+# Calculate function scans the string to evaluates and display it
+def calculate():
 #     entire_string = display.get()
 #     try:
 #         a = parser.expr(entire_string).compile()
