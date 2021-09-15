@@ -12,9 +12,9 @@ i = 0
 
 # Receives the digit as parameter and display it on the input field
 def get_variables(num):
-#     global i
-#     display.insert(i,num)
-#     i+=1
+    global i
+    display.insert(i,num)
+    i+=1
  
 # # Calculate function scans the string to evaluates and display it
 # def calculate():
