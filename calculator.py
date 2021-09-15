@@ -35,8 +35,8 @@ def get_operation(operator):
     display.insert(i,operator)
     i+=length
  
-# #Function to clear the input field 
-# def clear_all():
+#Function to clear the input field 
+def clear_all():
 #     display.delete(0,END)
  
 # #Function which works like backspace
