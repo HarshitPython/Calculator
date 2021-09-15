@@ -20,10 +20,10 @@ def get_variables(num):
 def calculate():
     entire_string = display.get()
     try:
-#         a = parser.expr(entire_string).compile()
-#         result = eval(a)
-#         clear_all()
-#         display.insert(0,result)
+        a = parser.expr(entire_string).compile()
+        result = eval(a)
+        clear_all()
+        display.insert(0,result)
 #     except Exception:
 #         clear_all()
 #         display.insert(0,"Error")
