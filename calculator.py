@@ -7,8 +7,8 @@ from math import factorial
 root = Tk()
 root.title('DataFlair - Calculator')
 
-# #It keeps the track of current position on the input text field
-# i = 0
+#It keeps the track of current position on the input text field
+i = 0
 # # Receives the digit as parameter and display it on the input field
 # def get_variables(num):
 #     global i
