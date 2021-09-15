@@ -39,8 +39,8 @@ def get_operation(operator):
 def clear_all():
     display.delete(0,END)
  
-# #Function which works like backspace
-# def undo():
+#Function which works like backspace
+def undo():
 #     entire_string = display.get()
 #     if len(entire_string):
 #         new_string = entire_string[:-1]
