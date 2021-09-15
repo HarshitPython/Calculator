@@ -37,7 +37,7 @@ def get_operation(operator):
  
 #Function to clear the input field 
 def clear_all():
-#     display.delete(0,END)
+    display.delete(0,END)
  
 # #Function which works like backspace
 # def undo():
