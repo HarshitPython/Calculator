@@ -30,10 +30,10 @@ def calculate():
  
 # Function which takes operator as input and displays it on the input field
 def get_operation(operator):
-#     global i
-#     length = len(operator)
-#     display.insert(i,operator)
-#     i+=length
+    global i
+    length = len(operator)
+    display.insert(i,operator)
+    i+=length
  
 # #Function to clear the input field 
 # def clear_all():
