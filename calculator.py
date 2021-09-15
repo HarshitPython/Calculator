@@ -18,8 +18,8 @@ def get_variables(num):
  
 # Calculate function scans the string to evaluates and display it
 def calculate():
-#     entire_string = display.get()
-#     try:
+    entire_string = display.get()
+    try:
 #         a = parser.expr(entire_string).compile()
 #         result = eval(a)
 #         clear_all()
