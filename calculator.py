@@ -24,9 +24,9 @@ def calculate():
         result = eval(a)
         clear_all()
         display.insert(0,result)
-#     except Exception:
-#         clear_all()
-#         display.insert(0,"Error")
+    except Exception:
+        clear_all()
+        display.insert(0,"Error")
  
 # # Function which takes operator as input and displays it on the input field
 # def get_operation(operator):
