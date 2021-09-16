@@ -57,7 +57,7 @@ def fact():
         result = factorial(int(entire_string))
         clear_all()
         display.insert(0,result)
-#     except Exception:
+    except Exception:
 #         clear_all()
 #         display.insert(0,"Error")
 
