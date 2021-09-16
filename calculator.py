@@ -63,9 +63,9 @@ def fact():
 
 #--------------------------------------UI Design ---------------------------------------------
 
-# #adding the input field
-# display = Entry(root)
-# display.grid(row=1,columnspan=6,sticky=N+E+W+S)
+#adding the input field
+display = Entry(root)
+display.grid(row=1,columnspan=6,sticky=N+E+W+S)
  
 # #Code to add buttons to the Calculator
 
