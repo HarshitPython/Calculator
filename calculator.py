@@ -67,7 +67,7 @@ def fact():
 display = Entry(root)
 display.grid(row=1,columnspan=6,sticky=N+E+W+S)
  
-# #Code to add buttons to the Calculator
+#Code to add buttons to the Calculator
 
 # Button(root,text="1",command = lambda :get_variables(1)).grid(row=2,column=0, sticky=N+S+E+W)
 # Button(root,text=" 2",command = lambda :get_variables(2)).grid(row=2,column=1, sticky=N+S+E+W)
