@@ -47,8 +47,8 @@ def undo():
         clear_all()
         display.insert(0,new_string)
     else:
-#         clear_all()
-#         display.insert(0,"Error")
+        clear_all()
+        display.insert(0,"Error")
 
 # #Function to calculate the factorial and display it
 # def fact():
