@@ -58,8 +58,8 @@ def fact():
         clear_all()
         display.insert(0,result)
     except Exception:
-#         clear_all()
-#         display.insert(0,"Error")
+        clear_all()
+        display.insert(0,"Error")
 
 # #--------------------------------------UI Design ---------------------------------------------
 
