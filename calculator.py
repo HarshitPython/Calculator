@@ -54,9 +54,9 @@ def undo():
 def fact():
     entire_string = display.get()
     try:
-#         result = factorial(int(entire_string))
-#         clear_all()
-#         display.insert(0,result)
+        result = factorial(int(entire_string))
+        clear_all()
+        display.insert(0,result)
 #     except Exception:
 #         clear_all()
 #         display.insert(0,"Error")
