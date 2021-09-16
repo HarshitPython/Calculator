@@ -46,7 +46,7 @@ def undo():
         new_string = entire_string[:-1]
         clear_all()
         display.insert(0,new_string)
-#     else:
+    else:
 #         clear_all()
 #         display.insert(0,"Error")
 
