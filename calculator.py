@@ -50,8 +50,8 @@ def undo():
         clear_all()
         display.insert(0,"Error")
 
-# #Function to calculate the factorial and display it
-# def fact():
+#Function to calculate the factorial and display it
+def fact():
 #     entire_string = display.get()
 #     try:
 #         result = factorial(int(entire_string))
