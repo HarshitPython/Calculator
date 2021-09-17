@@ -98,8 +98,8 @@ Button(root,text="%",command= lambda :get_operation("%")).grid(row=3,column=4, s
 Button(root,text="(",command= lambda :get_operation("(")).grid(row=4,column=4, sticky=N+S+E+W)
 Button(root,text="exp",command= lambda :get_operation("**")).grid(row=5,column=4, sticky=N+S+E+W)
  
-# Button(root,text="<-",command= lambda :undo()).grid(row=2,column=5, sticky=N+S+E+W)
-# Button(root,text="x!", command= lambda: fact()).grid(row=3,column=5, sticky=N+S+E+W)
+Button(root,text="<-",command= lambda :undo()).grid(row=2,column=5, sticky=N+S+E+W)
+Button(root,text="x!", command= lambda: fact()).grid(row=3,column=5, sticky=N+S+E+W)
 # Button(root,text=")",command= lambda :get_operation(")")).grid(row=4,column=5, sticky=N+S+E+W)
 # Button(root,text="^2",command= lambda :get_operation("**2")).grid(row=5,column=5, sticky=N+S+E+W)
 # Button(root,text="^2",command= lambda :get_operation("**2")).grid(row=5,column=5, sticky=N+S+E+W)
