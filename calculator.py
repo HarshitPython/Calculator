@@ -106,4 +106,4 @@ Button(root,text="^2",command= lambda :get_operation("**2")).grid(row=5,column=5
 Button(root,text="=",command= lambda :calculate()).grid(columnspan=6, sticky=N+S+E+W)
 
  
-# root.mainloop()
+root.mainloop()
